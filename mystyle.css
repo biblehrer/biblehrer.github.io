@@ -1,5 +1,42 @@
-p {
-	width: 100px;
-	height: 99px;
-	display: inline-block;
+div {
+	margin: 20px 5px;
+	padding: 10px;
+	background-color: gray;
+	border: 4px solid black;
+}
+
+.box {
+	background-color: red;
+}
+
+#neu {
+	background-color: blue;
+}
+
+#neu.box{
+	background-color: black;
+}
+
+div p {
+	
+}
+
+[href] {
+	
+}
+
+:hover {
+	background-color: black;
+}
+
+
+
+h1 {
+	font-family: "Bagel Fat One", "Times New Roman", sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	color: red;
+	font-size: 20px;
 }

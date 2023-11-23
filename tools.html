@@ -1,11 +1,12 @@
 <html>
   <head>
     <title> So heißt unsere Seite</title>
-	<link rel="stylesheet" href="myStyle.css">
-  </head>
-  
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bagel Fat One">
+  </head>  
   <body>
     <h1> Überschrift </h1>
+	<a href="#bottom"> Link nach untern </a>
     <ol>
       <li> Listenelement 1 </li>
       <li> Listenelement 2 </li>
@@ -20,15 +21,25 @@
     <p>
       Das ist ein Absatz!
       Wort&nbsp;Trennung
-      &gt; &lt; &#60;
+      Sonderzeichen: &gt; &lt; &#60;
       <br> Hier ist bewusst ein Zeilenumbruch.
+	  <b> Dicker Text</b>
       <hr>
       <i> Das ist kursiv</i>
     </p>
-    <a href="index.html" >Der Text auf den ich klicke</a>
+    <a href="index.html" >Der Text auf den ich klicke, welcher zur Startseite führt.</a>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Coat_of_Arms_of_S%C5%82uck.svg/800px-Coat_of_Arms_of_S%C5%82uck.svg.png" width=200px>
-
+	<div>
+		<br>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/1920px-Flag_of_Wales.svg.png" width=200px>		
+		Dieses Bild ist direkt aus dem Netzt eingelesen
+		Gemeinsam mit diesem Text befindet es sich in einem Div Element, also einem Container in welchem wir Text und Element bewusst clustern können.
+		<br>
+		<br>
+	</div>
+    
+	<!-- Ein Style Tag kann überall in der Seite plaziert werden und beinflusst damit alle auf der Seite 
+	vorhandenen Elemente die darin selektiert wurden in diesem Fall die table.-->
     <style>
       table, th, td {
         border: 2px solid black;		
@@ -54,9 +65,22 @@
       </tr>
     </table>
 
+	<br>
     <a href="tools2.html" >
-      <img src="Assets/bild.png">
+      <img src="Bilder/bild.png">
     </a>
+	<br>
+	Das ist nicht nur ein Bild sondern dient auch gleichzeitig als Link!
+	</br>
+	
+	<p id="bottom">
+		Lorem ipsum! Das ist das Seitenende das wir durch die Navigation erreichen!
+	</p>
+	
+	<div id="neu"></div>
+	<div class="box"></div>
+	<div class="box" id="neu"></div>
+	<div class="box" id="neu" style="background-color: yellow;"></div>
     
   </body>
 </html>

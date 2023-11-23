@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Div Beispiel</title>
+		<Style>
+			div {
+				background-color: green;
+				margin: 10px;
+				padding: 10px;
+				border: 5px solid black;
+				width: 100px
+			}
+		</Style>
+	</head>
+  <body>
+  
+	<div style="display: inline-block">Dieser Block verhält sich wie Text und lässt sich beinflussen wie ein Block Element.</div>	
+	
+	Dieses Wort ist <span style="color: blue">blau</span>.
+  
+	<!-- Dieses Element stellt eine bewusste freie Fläche dar. Indem ich die zuvor im Style festgelegten Eigenschaften überschreibe kann ich das Element für den Nutzer unsichtbar machen. -->
+	<div style="height: 50px; border: none; background-color: white;"></div>
+    
+  	<p style="background-color: red; display: inline">
+		Dieser Absatzt nimmt nur soviel Platz ein wie der Inhalt/Text benötigt. 
+	</p>
+	
+	<p style="background-color: LightBlue; display: block">
+		Dieser Absatzt nimmt immer die ganze Breite des übergeordneten Objektes an. 
+	</p>
+	
+	<p style="background-color: red; height: 50px; display: inline">
+		Einem Inline Element kann keine Breite oder Höhe zugeordnet werden.
+	</p>
+	
+	<p style="background-color: red; height: 50px; display: inline-block">
+		Einem Inline-Block Element jedoch schon.
+	</p>  
+	
+  </body>
+</html>
