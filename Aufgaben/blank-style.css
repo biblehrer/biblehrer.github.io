@@ -1,0 +1,70 @@
+body {
+	background-color: LightGreen;
+	margin: 0;
+}
+
+#home {
+	color: red;
+	text-decoration: none;
+	list-style-type: none;
+	
+}
+
+li {
+	display: inline-block;
+	background-color: green;
+	width: 20%;
+}
+/*
+.text-box {
+	display: inline-block;
+	width: 200px;
+}*/
+/*
+img {
+	position: absolute;
+	clip: rect(20px, 480px, 300px, 110px);
+}
+*/
+/*
+img {
+	float: left;
+	width: 
+}
+
+p {
+	display: block;
+}*/
+/*
+img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100px;
+}
+
+h1{
+	margin-left: 100px;
+}*/
+
+.headline {
+	text-align: center;
+}
+
+img {
+	width: 40% !important;
+	display: block;
+	margin: auto;
+}
+
+.dog {
+	width: 80%;
+}
+
+body {
+	background-image: url("https://www.creativefabrica.com/wp-content/uploads/2022/05/11/1652275957/Cartoon-Corgi-Dog-Running-580x386.jpg");
+	/*background-size: cover;*/
+	background-repeat: repeat-x;
+}
+
+/* Kommentare */
