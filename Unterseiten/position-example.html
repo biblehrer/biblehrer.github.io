@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Float Example </title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.center {
+	width: 20%;
+	height: 2000px;
+	background-color: blue;
+	position: absolute;
+	left: 40%;
+	top: 10px;
+}
+
+.always {
+	padding: 30px;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.offcenter {
+	height: 200px;
+	width: 100px;
+	background-color: red;
+	position: relative;
+	right: -100px;
+	top: -50px;
+	z-index: -1;
+}
+
+.moving {
+	width: 10px;
+	padding: 20px;
+	background-color: orange;
+	position: sticky;
+	top: 10%;
+}
+
+.filler {
+	padding: 100px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="center"></div>
+
+<div class="filler"></div>
+
+<div class="moving"></div>
+
+<div class="filler"></div>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+		sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+		sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+		invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+		At vero eos et accusam et justo duo dolores et ea rebum. 
+		Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+<div class="always"></div>
+<div class="offcenter"></div>
+
+</body>
+</html>
