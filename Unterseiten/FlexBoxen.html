@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> Startseite </title>	
+	<style>
+		body {
+			margin: 10px;
+		}
+		.red {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+		.green {
+			width: 100px;
+			height: 100px;
+			background-color: green;
+		}
+		.blue {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			
+			order:1;
+			align-self: flex-start;
+			flex-grow: 1;
+			flex-shrink: 1;
+		}
+		
+		#main {
+			height: 400px;
+			display: flex;
+			
+			justify-content: center; 
+			/*flex-start, flex-end, space-around, space-between*/
+			
+			align-item: flex-start;
+			/*flex-end, center*/
+			
+			flex-wrap: wrap;
+			/*no-wrap, wrap-reverse*/
+			
+			flex-direction: row;
+			/*row-reverse, column, column-reverse*/
+			
+			align-content: space-between;
+			/*space-around, strech, center, flex-start, flex-end*/
+		}
+	
+	</style>	
+	</head>
+	<body>	
+		<div id="main">
+			<div class="red"></div>
+			<div class="green"></div>
+			<div class="blue"></div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
