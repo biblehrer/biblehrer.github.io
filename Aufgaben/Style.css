@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-list li {
+    background-color: rgb(51, 51, 252);
+    border-radius: 18px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.round-white-box {
+    background-color: white;
+    border-radius: 29px;
+}
+
+.main-image {
+    border-radius: 18px;
+}
+
+.main-header {
+    color: #52c31d;
+    font-size: 40px;
+}
+
+.main-button {
+    border-radius: 64px;
+    text-decoration: none;
+    background-color: rgb(51, 51, 252);
+    color: white;
+}
+
+.footer-text {
+    font-weight: bold;
+    color: white;
+}
