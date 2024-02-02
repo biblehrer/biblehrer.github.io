@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+	<title>Example Page</title>
+	<link href="Responsive.css" rel="https://biblehrer.github.io/Aufgaben/Responsive.css" type="text/css" />
+	<link rel="stylesheet" href="https://biblehrer.github.io/Aufgaben/Style.css">
+
+	<style>
+		.container {
+			width: 300px;
+			height: 300px;
+			display: inline-block;
+			margin-top: 50px;
+		}
+		.greenbox {
+			background-color: darkgreen;
+			width: 100%;
+			height: 50px;			
+			display: none;
+		}
+
+		.dog {
+			min-width: 120px;
+			max-width: 20%;
+		}
+
+		.burger {
+			border-top: 5px solid black;
+			border-bottom: 5px solid black;
+			padding: 5px;
+			width: 10px;
+			display: none;
+			float: right;			
+		}
+
+		@media only screen and (max-width: 1280px) {
+			.menu-list {
+				display: none;
+			}
+			.burger {
+				display: inline-block;
+			}
+		}
+	</style>
+	
+</head>
+<body>
+
+	<nav>
+		<img src="https://www.creativefabrica.com/wp-content/uploads/2022/05/11/1652275957/Cartoon-Corgi-Dog-Running-580x386.jpg" alt="Dog Logo" class="dog"/>
+		<div class="burger"></div>
+		<ul class="menu-list" id="home">
+			<li><a href="https://google.com">Link 1</a></li>
+			<li><a href="https://google.com">Link 2</a></li>
+			<li><a href="https://google.com">Link 3</a></li>
+			<li><a href="https://google.com">Link 4</a></li>
+		</ul>
+	</nav>	
+
+	<div class="container">
+		<div class="greenbox"></div>
+	</div>
+
+</html>
+</body>
