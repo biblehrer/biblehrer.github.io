@@ -1,0 +1,58 @@
+.sign {
+    border-radius: 10000px;
+    border: 5px solid red;
+    padding: 30px 0;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin: 25px;
+}
+
+body {
+    background-color: green;
+}
+
+.dog, #cat {
+    height: 100px;
+    margin: 25px;
+}
+
+.up {
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+}
+
+.down {
+    position: fixed;
+    bottom: 0px;
+    right: 100px;
+}
+.left {
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+}
+.right {
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+}
+
+#dog {
+    position: fixed;
+    bottom: 0px;
+    right: 500px;
+}
+
+#ball {
+    position: fixed;
+    bottom: 500px;
+    right: 700px;
+    width: 100px;
+}
+
+
