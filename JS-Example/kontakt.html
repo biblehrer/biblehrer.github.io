@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+        <link href="main.css" rel="stylesheet" type="text/css" />
+	    <title> Kontakt </title>		
+	</head>
+	<body>	
+        <nav class="navigation">
+            <a class="navigation-link round-white-box" href="index.html"> Startseite</a>
+            <a class="navigation-link round-white-box" href="park.html"> park</a>
+            <a class="navigation-link round-white-box" href="stupidPark.html"> Bad Park</a>
+            <a class="navigation-link round-white-box" href="kontakt.html"> Kontakt</a>
+        </nav>
+
+
+        <form onsubmit="validateForm()" method="post">
+            <lable> Vorname </lable> <br>
+            <input type="text" value="Name"> <br>
+            <lable> Nachname </lable> <br>
+            <input type="text" value="Name"> <br>
+
+            <input type="checkbox"> <lable> Option A </lable><br>
+            <input type="checkbox"> <lable> Option B </lable><br>
+            <input type="checkbox"> <lable> Option C </lable><br>
+
+            <input type="button" value="Extras"> <br>
+
+            <input type="radio" name="radio"> <lable> Option 1 </lable><br>
+            <input type="radio" name="radio"> <lable> Option 2 </lable><br>
+            <input type="radio" name="radio"> <lable> Option 3 </lable><br>
+
+            <input type="submit" value="Abschicken">
+        </form>
+
+
+
+        <script>
+            function validateForm() {
+                alert("Formular abgeschickt");
+            }
+        </script>
+
+
+
+	</body>
+</html>
+
+
+
